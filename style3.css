@@ -1,0 +1,213 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+    
+nav{
+    display: flex;
+    width: 53%;
+    justify-content:space-between;
+    align-items: center; 
+    padding-top: 90px;
+    font-size: 33.607px;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: absolute;
+    right: 62px;
+}
+    
+    
+.Home{
+    text-decoration: none;
+    color: rgb(199, 76, 39);
+    font-size: 16pt;
+}
+    
+    
+.navtxt{
+    text-decoration: none;
+    color: green;
+    transition: 0.4s;
+    font-size: 16pt;
+}
+    
+.navtxt:hover{
+    color: rgb(199, 76, 39);
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    width: 109px;
+    height: 110px;
+    margin-left: -8px;
+}
+
+header img:hover{
+    transform: scale(1.2);
+}
+
+body{
+    background-image: url(images/grille.png);
+    background-repeat: repeat;
+    width:90%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    color: rgb(50, 77, 151);
+    font-size: 70px;
+    font-family: "Pacifico";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 144px;
+    letter-spacing: 5px;
+    line-height: 1.2;
+} 
+
+input[type="text"]{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.349;
+    width: 700px;
+    height: 100px;
+    border-left-width: 5px;
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    border-right: none;
+    border-color: rgba(127, 127, 127, 0.3);
+    box-shadow: -3px 20px 50px 0px rgba(127, 127, 127, 0.6);
+    margin-left: 261px;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(images/user\ logo\ form.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 30px;
+    background-size: 54px 56px;
+    padding-left: 116px;
+}
+  
+input[type="email"]{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.349;
+    width: 700px;
+    height: 100px;
+    border-left-width: 5px;
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    border-right: none;
+    border-color: rgba(127, 127, 127, 0.3);
+    box-shadow: -3px 20px 50px 0px rgba(127, 127, 127, 0.6);
+    margin-left: 261px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(images/email\ logo\ form.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 30px;
+    background-size: 54px 46px;
+    padding-left: 116px;
+}
+
+textarea{
+    resize: none;
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.349;
+    width: 700px;
+    height: 582px;
+    border-left-width: 5px;
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    border-right: none;
+    border-color: rgba(127, 127, 127, 0.3);
+    box-shadow: -3px 20px 50px 0px rgba(127, 127, 127, 0.6);
+    margin-left: 261px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(images/message\ logo\ form.png);
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    background-position-x: 30px;
+    background-size: 54px 56px;
+    padding-left: 116px;
+    padding-top: 30px;
+}
+
+button[type="submit"]{
+    background-color: #c74c27;
+    width: 340px;
+    height: 96px;
+    padding: auto;
+    border-left-width: 5px;
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    border-right: none;
+    box-shadow: -5px 10px 50px 0px rgba(127, 127, 127, 0.6);
+    border-radius: 50px;
+    font-size: 40px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 0.261;
+    font-weight: bold;
+    color: white;
+    margin-top: 95px;
+    margin-left: 513px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 1352px;
+    top: 350px;
+    width: 59px;
+    height: 59px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.socials img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    background-image: url("images/messages\ img.png");
+    top: 1600px;
+    width: 895px;
+    height: 752px;
+    position: absolute;
+    background-size: cover;
+    left: -5.6%;
+    margin-left: 70px;
+}
+
+
+  
+
+
+
+  

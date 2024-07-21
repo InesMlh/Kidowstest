@@ -1,0 +1,261 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+    
+nav{
+    display: flex;
+    width: 53%;
+    justify-content:space-between;
+    align-items: center; 
+    padding-top: 90px;
+    font-size: 33.607px;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: absolute;
+    right: 62px;
+}
+    
+    
+.Home{
+    text-decoration: none;
+    color: rgb(199, 76, 39);
+    font-size: 16pt;
+}
+    
+    
+.navtxt{
+    text-decoration: none;
+    color: green;
+    transition: 0.4s;
+    font-size: 16pt;
+}
+    
+.navtxt:hover{
+    color: rgb(199, 76, 39);
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    width: 109px;
+    height: 110px;
+    margin-left: -8px;
+}
+
+header img:hover{
+    transform: scale(1.2);
+}
+
+body{
+    background-image: url(images/grille.png);
+    background-repeat: repeat;
+    width:90%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.form{
+    position: relative;
+    left: 16%;
+    top: 100px;
+    width: 627px;
+    height: 58px;
+    padding: 3%;
+
+    z-index: 64;
+}
+
+
+.align{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    outline-color:#324d97;
+}
+input[type="text"]{
+    font-size: 40px;
+    font-family: "Montserrat,sans-serif";
+    color: rgb(26, 26, 26);
+    width: 840px;
+    height: 100px;
+    border-color: #324d97;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+input[type="date"]{
+    font-size: 40px;
+    font-family: "Montserrat,sans-serif";
+    width: 840px;
+    height: 100px;
+    border-color: #324d97;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+
+input[type="tel"]{
+    font-size: 40px;
+    font-family: "Montserrat,sans-serif";
+    color: rgb(26, 26, 26);
+    width: 840px;
+    height: 100px;
+    border-color: #324d97;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+input[type="email"]{
+    font-size: 40px;
+    font-family: "Montserrat,sans-serif";
+    color: rgb(26, 26, 26);
+    width: 840px;
+    height: 100px;
+    border-color: #324d97;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+input[type="password"]{
+    font-size: 40px;
+    font-family: "Montserrat,sans-serif";
+    color: rgb(26, 26, 26);
+    width: 840px;
+    height: 100px;
+    border-color: #324d97;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 800PX;
+    top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+  
+input[type="checkbox"] {
+    position: relative;
+    margin-right: 263px;
+    width: 25px;
+    height: 25px;
+    background-color: #324d97;
+}
+input[type="checkbox"]:focus {
+    background-color: #324d97;
+}
+  
+label {
+    margin-left: -240px;
+}
+ 
+input[type="submit"]{
+    background-color: #324d97;
+    width: 600px;
+    height: 130px;
+
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.461;
+    letter-spacing: 5px;
+    margin-top: 95px;
+    margin-left:18%;
+    cursor:pointer;
+    border:none;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+    
+#txt{
+    font-family: "Montserrat";
+width: 800PX;
+    color: rgb(0, 0, 0);
+    line-height: 2.001;
+    font-size: 30px;
+    letter-spacing: 3px;
+margin-left:19%;
+    margin-top: 48px;
+    padding-bottom: 128px;
+}
+
+p a{
+    text-decoration: none;
+    color: #c74c27;
+}
+
+ h1{
+    color: rgb(50, 77, 151);
+    font-size: 70px;
+    font-family: "Pacifico";
+    text-align: center;
+    margin-left: auto;
+    margin-top: 14px;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    width: 800px;
+ }
+ 
+main{
+    background-image: url(images/fond\ avec\ cadre\ vert.png);
+    margin: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1753px;
+    margin-top: 5.4%;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 59px;
+    height: 59px;
+    gap: 100px;
+    cursor: pointer;
+    margin-left: 25%;
+    padding-bottom: 30px;
+}
+
+.socials img:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,307 @@
+@font-face{
+    font-family: police;
+    src: url(fonts/IntroRustG-Base2Line.otf);
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+nav{
+    display: flex;
+    width: 53%;
+    justify-content:space-between;
+    align-items: center; 
+    padding-top: 90px;
+    font-size: 33.607px;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: absolute;
+    right: 62px;
+}
+
+
+.Home{
+    text-decoration: none;
+    color: rgb(199, 76, 39);
+    font-size: 16pt;
+}
+
+
+.navtxt{
+    text-decoration: none;
+    color: green;
+    transition: 0.4s;
+    font-size: 16pt;
+}
+
+.navtxt:hover{
+    color: rgb(199, 76, 39);
+    transition: 0.2s;
+}
+
+body{
+    background-image: url(images/grille.png);
+    background-repeat: repeat;
+    width:90%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parag{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: rgb(111, 111, 111);
+    line-height: 1.75;
+    text-align:justify;
+    width: 587.9px;
+    height: 161.328px;
+    margin-left: -8px;
+} 
+
+aside{
+    margin-right: -9px;
+
+}
+
+.div h1{
+    text-align: justify;
+    width: 592.323px;
+    height: 127px;
+    font-size: 60px;
+    font-family: "Pacifico";
+    color: rgb(50, 77, 151);
+    line-height: 1.2;
+    margin-left: -8px;
+} 
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    width: 109px;
+    height: 110px;
+    margin-left: -8px;
+}
+
+header img:hover{
+    transform: scale(1.2);
+}
+
+.text0{
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(199, 76, 39);
+    text-align: justify;
+    margin-left: -8px;
+    width: 700px;
+    height: 8px;
+    line-height: 1.2;
+}
+  
+.button{
+    background-color: rgb(50, 77, 151);
+    color: white;
+    margin-top: 15px;
+    margin-left: 185px;
+    text-align: center;
+    outline: none;
+    border-radius: 20PX;
+    width: 197px;
+    height: 72px;
+    border-style: outset;
+    box-shadow: 7.5px 12.99px 35px 0px rgba(55, 77, 128, 0.4);
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.wraper{
+    padding: 2%;
+    background-color: rgb(235, 239, 236);
+    border-radius: 15px;
+}
+  
+#second_page{
+    padding-top: 45px;
+    margin-left: 330px;
+    font-size: 36.416px;
+    font-family: "Poppins";
+    color: rgb(199, 76, 39);
+    font-weight: bold;
+    line-height: 1.2;
+    width: 600px;
+    height: 60px;
+
+}
+
+.parag2{
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(111, 111, 111);
+    line-height: 1.4;
+    text-align:center;
+    left: 167.441px;
+    top: 926.275px;
+    width: 1000px;
+    height: 150px;
+    margin-left: 135px;
+} 
+
+
+.element{
+    transition: 1s;
+    cursor: pointer;
+}
+.element:hover{
+transform: translateY(-15px); transition: 1s;
+
+}
+
+.element p{
+    font-size: 30px;
+    font-family: "Pacifico";
+    color: rgb(50, 77, 151);
+    line-height: 1.167;
+    text-align: center;
+    left: 108.062px;
+    top: 1433.495px;    
+    
+}
+ 
+.bg{
+    background-color: white; 
+    margin-top:56px; 
+    height: 770px; 
+    padding-left: 60px; 
+    padding-right: 60px; 
+    margin-left: -2%; 
+    position: relative;
+    left: -3.5%;
+    width: 101.896%;
+}
+
+.footer{
+    background-image: url("images/Group 8.png");
+    width: 111.1%;
+    height: 900px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -5.6%;
+}
+
+.wraperfooter{
+    padding-left: 40%;
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: center;
+    margin-top: 70px;
+    width: 35%;
+}
+
+footer img:hover{
+    transform: scale(1.2);
+}
+
+.foottext{
+  font-size: 40px;
+  font-family: "police";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 15px;
+  position: relative;
+  right: 34%;
+}
+
+.button2{
+    background-color: rgb(252, 252, 252);
+    border: none;
+    margin-top: 30px;
+    margin-left: center;
+    text-align: center;
+    border-radius: 22PX;
+    width: 271px;
+    height: 59px;
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(114, 157, 168);
+    line-height: 1.2;
+    text-align: center;
+    opacity: 0.902;
+    background-color: none;
+    cursor: pointer;
+}
+
+.button2:hover{
+    transform: scale(1.2);
+}
+
+.X{
+    position:absolute;
+    left: 90%;
+}
+
+.message{
+    position:absolute;
+    left: 5%;
+    top: 114%;
+    z-index: 460;
+}
+
+.science{
+    position:absolute;
+    left: 87%;
+    top: 125%;
+    z-index: 460;
+}
+
+.enveloppe{
+    position:absolute;
+    left: 27%;
+    top: 190%;
+    z-index: 460;
+}
+
+.diagramme{
+    position:absolute;
+    left: 60%;
+    top: 215%;
+    z-index: 460;
+}
